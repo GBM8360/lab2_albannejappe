@@ -1,5 +1,5 @@
 ---
-title: Part 1: Mask the central region of k-space
+title: 'Part 1: Mask the central region of k-space'
 ---
 
 ## Goal
