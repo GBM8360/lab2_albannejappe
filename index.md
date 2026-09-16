@@ -1,5 +1,5 @@
 ---
-title: My MyST Book
+title: Lab 2 MyST Book
 description: An interactive book built with MyST
 ---
 
