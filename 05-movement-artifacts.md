@@ -1,5 +1,5 @@
 ---
-title: 'Part 3: Rotation of the patient's head'
+title: 'Part 3: Rotation of the head of the patient'
 ---
 
 ## Goal
