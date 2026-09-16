@@ -6,7 +6,7 @@ project:
   subtitle: An interactive book built with MyST
   # TODO: add yourself. This is the same author schema a real MOOC contribution uses.
   authors:
-    - name: Your Name
+    - name: Albanne Jappé
       affiliations:
         - Polytechnique Montréal
   copyright: '2026'
