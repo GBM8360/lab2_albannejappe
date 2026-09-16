@@ -65,6 +65,7 @@ project:
     - file: index.md
     - file: 01-getting-started.md
     - file: 02-interactive-figures.md
+    - file: 03-mask-central-kspace
     # Notebooks must appear in the toc for MyST to build (and execute) them --
     # otherwise `:::{figure} #label` has nothing to embed and silently renders empty.
     # `hidden: true` keeps it built and referenceable without publishing it as a
