@@ -18,6 +18,6 @@ figure interactive avec un slider pour choisir la taille de la zone à masquer
 :::{include} part1.ipynb
 :::
 
-:::{figure} #figMaskCenter
+:::{figure} notebooks/mask-center.ipynb#figMaskCenter
 :label: MaskCenter
 :::
