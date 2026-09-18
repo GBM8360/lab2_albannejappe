@@ -75,6 +75,7 @@ project:
     # second copy next to a page of source code.
     - file: notebooks/figure-demo.ipynb
       hidden: true
+    - file: notebooks/mask-center.ipynb
 
 site:
   template: book-theme
