@@ -1,5 +1,8 @@
 ---
 title: 'Part 1: Mask the central region of k-space'
+kernelspec:
+  name: python3
+  display_name: Python 3
 ---
 
 ## Goal
@@ -12,4 +15,7 @@ Pour le code: ne pas tout refaire mes codes en python, on peut importer les figu
 
 figure interactive avec un slider pour choisir la taille de la zone à masquer
 
-2e version(si j'ai le temps): 2 sliders en plus pour bouger la zone à masquer horizontalement et verticalement (peut être entourer en rouge la zone pour bien la visualiser)
+
+:::{figure} #figMaskCenter
+:label: MaskCenter
+:::
