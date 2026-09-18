@@ -15,6 +15,8 @@ Pour le code: ne pas tout refaire mes codes en python, on peut importer les figu
 
 figure interactive avec un slider pour choisir la taille de la zone à masquer
 
+:::{include} part1.ipynb
+:::
 
 :::{figure} #figMaskCenter
 :label: MaskCenter
