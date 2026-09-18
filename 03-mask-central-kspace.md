@@ -1,7 +1,7 @@
 ---
 title: 'Part 1: Mask the central region of k-space'
 kernelspec:
-  name: python3
+  name: base
   display_name: Python 3
 ---
 
