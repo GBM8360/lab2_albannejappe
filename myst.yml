@@ -60,6 +60,9 @@ project:
         - file: index.md
         - file: 01-getting-started.md
         - file: 02-interactive-figures.md
+        - file: 03-mask-central-kspace.md
+        - file: 04-downsampling.md
+        - file: 05-movement-artifacts.md
 
   toc:
     - file: index.md
@@ -76,6 +79,7 @@ project:
     - file: notebooks/figure-demo.ipynb
       hidden: true
     - file: notebooks/mask-center.ipynb
+      hidden: true
 
 site:
   template: book-theme
