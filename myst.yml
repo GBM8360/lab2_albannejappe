@@ -80,6 +80,8 @@ project:
       hidden: true
     - file: notebooks/mask-center.ipynb
       hidden: true
+    - file: notebooks/downsampling.ipynb
+      hidden: true
 
 site:
   template: book-theme
