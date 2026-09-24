@@ -82,6 +82,8 @@ project:
       hidden: true
     - file: notebooks/downsampling.ipynb
       hidden: true
+    - file: notebooks/zero-fill.ipynb
+      hidden: true
 
 site:
   template: book-theme
