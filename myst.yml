@@ -84,6 +84,8 @@ project:
       hidden: true
     - file: notebooks/zero-fill.ipynb
       hidden: true
+    - file: notebooks/rotation.ipynb
+      hidden: true
 
 site:
   template: book-theme
