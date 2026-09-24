@@ -1,6 +1,8 @@
 ---
 title: 'Part 3: Rotation of the head of the patient'
-
+kernelspec:
+  name: base
+  display_name: Python 3
 ---
 
 ## Goal
