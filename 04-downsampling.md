@@ -31,3 +31,11 @@ Choses à corriger:
 ## Zero-filling
 
 2e figure: masquer la moitié du kspace (comme ce que j'ai rendu dans le lab 1)
+
+:::{figure} #figZeroFillX
+:label: ZeroFillX
+:::
+
+:::{figure} #figZeroFillY
+:label: ZeroFillY
+:::
