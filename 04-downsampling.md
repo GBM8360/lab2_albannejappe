@@ -10,14 +10,19 @@ Downsample the k-space by half in one direction (e.g., use any tool or method yo
 
 ## Downsampling
 
-vraiment faire le downsampling (chercher ce que c'est vraiment)
+vraiment faire le downsampling (chercher ce que c'est vraiment) OK
+
+Ajouter une légende + explication de la figure
+
+Choses à corriger:
+- 
 
 :::{figure} #figDownsamplingX
-:label: MaskCenter
+:label: DownsamplingX
 :::
 
 :::{figure} #figDownsamplingY
-:label: MaskCenter
+:label: DownsamplingY
 :::
 
 ## Zero-filling
