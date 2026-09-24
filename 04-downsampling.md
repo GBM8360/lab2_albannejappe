@@ -1,5 +1,8 @@
 ---
 title: 'Part 2: Downsample the k-space by half'
+kernelspec:
+  name: base
+  display_name: Python 3
 ---
 
 ## Goal
@@ -8,9 +11,6 @@ Downsample the k-space by half in one direction (e.g., use any tool or method yo
 ## Downsampling
 
 vraiment faire le downsampling (chercher ce que c'est vraiment)
-
-:::{include} downsampling.ipynb
-:::
 
 :::{figure} #figDownsamplingX
 :label: MaskCenter
