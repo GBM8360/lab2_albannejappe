@@ -9,4 +9,17 @@ Downsample the k-space by half in one direction (e.g., use any tool or method yo
 
 vraiment faire le downsampling (chercher ce que c'est vraiment)
 
+:::{include} downsampling.ipynb
+:::
+
+:::{figure} #figDownsamplingX
+:label: MaskCenter
+:::
+
+:::{figure} #figDownsamplingY
+:label: MaskCenter
+:::
+
+## Zero-filling
+
 2e figure: masquer la moitié du kspace (comme ce que j'ai rendu dans le lab 1)
