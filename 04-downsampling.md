@@ -15,7 +15,10 @@ vraiment faire le downsampling (chercher ce que c'est vraiment) OK
 Ajouter une légende + explication de la figure
 
 Choses à corriger:
-- 
+- échelle de couleur
+- taille des figures (ratatinées)
+- moins d'espace entre les figures si possible
+- µ dans la color bar
 
 :::{figure} #figDownsamplingX
 :label: DownsamplingX
