@@ -11,9 +11,15 @@ Mask the central region of k-space (e.g. using ½ of the number of voxels in bot
 
 ## Simple mask on central region
 
-Pour le code: ne pas tout refaire mes codes en python, on peut importer les figures en .mat et grâce à SciPy les insérer dans le notebook, et utiliser save dans matlab pour exporter les image en .mat
+figure interactive avec un slider pour choisir la taille de la zone à masquer OK
 
-figure interactive avec un slider pour choisir la taille de la zone à masquer
+Ajouter une légende + explication de la figure
+
+Choses à corriger pour que ce soit parfait!:
+- échelle de couleur?
+- figure plus haute (là elle est toute ratatinée)
+- colorbar sur le côté: plusieurs chiffres s'affichent, et ça change quand on glisse le slider
+
 
 :::{include} part1.ipynb
 :::
