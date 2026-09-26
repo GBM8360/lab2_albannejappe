@@ -21,6 +21,7 @@ Choses à corriger:
 - échelle de couleur
 - taille des figures (ratatinées)
 - µ dans la color bar + changement d'échelle
+- index du slider pour bien mettre en degré (pas de 0 à 36)
 
 :::{figure} #figRotation 
 :label: Rotation :::
