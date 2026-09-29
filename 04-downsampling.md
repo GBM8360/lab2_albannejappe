@@ -51,13 +51,13 @@ Interactive visualization of zero-filling in the Y direction
 For a Cartesian acquisition, the field of view (FOV) is related to the number of acquired voxels and the voxel size by
 
 $$
-FOV = N_{\mathrm{vox}} \times \Delta x (1)
+FOV = N_{\mathrm{vox}} \times \Delta x
 $$
 
 where $N_{\mathrm{vox}}$ is the number of voxels and $\Delta x$ is the spatial resolution. The FOV is also related to the sampling interval in k-space:
 
 $$
-FOV = \frac{1}{\Delta k} (2)
+FOV = \frac{1}{\Delta k}
 $$
 
 When k-space is undersampled by a factor of two in one direction, the number of acquired samples is reduced by half. If the sampling interval $\Delta k$ is increased accordingly, the FOV becomes smaller:
