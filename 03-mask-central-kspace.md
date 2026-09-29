@@ -11,7 +11,7 @@ Mask the central region of k-space (e.g. using ½ of the number of voxels in bot
 
 ## Simple mask on central region
 
-This interactive figure shows how progressively removing the central region of k-space affects the reconstructed image. You can increase or decrease the mask size (square side's number of pixels) and see how the reconstructed image changes. As the size of the masked region increases, the image progressively loses its low spatial frequency information, which contains the image structure. Consequently, the reconstructed image becomes more and more dominated by high-frequency information, keeping edges and fine details of the image while reducing the overall contrast.
+Interactive  [](#figMaskCenter) shows how progressively removing the central region of k-space affects the reconstructed image. You can increase or decrease the mask size (the number of pixels along the square side) and see how the reconstructed image changes. As the masked region size increases, the image progressively loses low-spatial-frequency information, which contains the image structure. Consequently, the reconstructed image becomes more and more dominated by high-frequency information, keeping edges and fine details of the image while reducing the overall contrast.
 
 This demonstrates that the central region of k-space contains important information about image contrast and general structure, whereas the outer regions contribute more to fine details.
 
@@ -22,5 +22,5 @@ This demonstrates that the central region of k-space contains important informat
 
 :::{figure} #figMaskCenter
 :label: MaskCenter
-:alt: Interactive visualization of central k-space masking and image reconstruction
+Interactive visualization of central k-space masking and image reconstruction
 :::
