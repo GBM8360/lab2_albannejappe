@@ -11,15 +11,10 @@ Mask the central region of k-space (e.g. using ½ of the number of voxels in bot
 
 ## Simple mask on central region
 
-figure interactive avec un slider pour choisir la taille de la zone à masquer OK
+This interactive figure shows how progressively removing the central region of k-space affects the reconstructed image. You can increase or decrease the mask size (square side's number of pixels) and see how the reconstructed image changes. As the size of the masked region increases, the image progressively loses its low spatial frequency information, which contains the image structure. Consequently, the reconstructed image becomes more and more dominated by high-frequency information, keeping edges and fine details of the image while reducing the overall contrast.
 
-Ajouter une légende + explication de la figure
+This demonstrates that the central region of k-space contains important information about image contrast and general structure, whereas the outer regions contribute more to fine details.
 
-Choses à corriger pour que ce soit parfait!:
-- échelle de couleur?
-- figure plus haute (là elle est toute ratatinée)
-- colorbar sur le côté: plusieurs chiffres s'affichent, et ça change quand on glisse le slider
-- si possible, modifier le fond pour qu'il soit uniforme (ou alors changer les Nan dans le code en une valeur fixe (style du noir ou du blanc))
 
 
 :::{include} part1.ipynb
@@ -27,4 +22,5 @@ Choses à corriger pour que ce soit parfait!:
 
 :::{figure} #figMaskCenter
 :label: MaskCenter
+:alt: Interactive visualization of central k-space masking and image reconstruction
 :::
