@@ -38,7 +38,7 @@ Interactive visualization of zero-filling in the Y direction
 
 ## Interpretation
 
-For a Cartesian acquisition, the field of view (FOV) is related to the number of acquired voxels and the voxel size by
+For a Cartesian acquisition, the FOV is related to the number of acquired voxels and the voxel size by
 
 $$
 FOV = N_{\mathrm{vox}} \times \Delta x
