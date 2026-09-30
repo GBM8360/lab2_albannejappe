@@ -65,6 +65,14 @@ project:
         - file: 03-mask-central-kspace.md
         - file: 04-downsampling.md
         - file: 05-movement-artifacts.md
+      - name: Build PDF
+        run: myst build --typst --execute
+
+      - name: Upload PDF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: my-myst-book-pdf
+          path: exports/my-myst-book.pdf
 
   toc:
     - file: index.md
