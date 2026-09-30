@@ -6,16 +6,18 @@ project:
   subtitle: An interactive book built with MyST
   # TODO: add yourself. This is the same author schema a real MOOC contribution uses.
   authors:
-    - name: Albanne Jappé
+    - name: Albanne Jappé (2554986)
       affiliations:
         - Polytechnique Montréal
   copyright: '2026'
   license: CC-BY-4.0
   open_access: true
-  date: 2026-09-16
+  date: 2026-09-30
   keywords:
     - MRI
     - education
+    - k-space
+    - image reconstruction
 
   numbering:
     headings: true
@@ -58,16 +60,16 @@ project:
       # a duplicate of the figure. Add new chapters here as well as in `toc`.
       articles:
         - file: index.md
-        - file: 01-getting-started.md
-        - file: 02-interactive-figures.md
+        #- file: 01-getting-started.md
+        #- file: 02-interactive-figures.md
         - file: 03-mask-central-kspace.md
         - file: 04-downsampling.md
         - file: 05-movement-artifacts.md
 
   toc:
     - file: index.md
-    - file: 01-getting-started.md
-    - file: 02-interactive-figures.md
+    #- file: 01-getting-started.md
+    #- file: 02-interactive-figures.md
     - file: 03-mask-central-kspace.md
     - file: 04-downsampling.md
     - file: 05-movement-artifacts.md
@@ -76,8 +78,8 @@ project:
     # `hidden: true` keeps it built and referenceable without publishing it as a
     # chapter of its own, so the reader gets the figure in context rather than a
     # second copy next to a page of source code.
-    - file: notebooks/figure-demo.ipynb
-      hidden: true
+    #- file: notebooks/figure-demo.ipynb
+    #  hidden: true
     - file: notebooks/mask-center.ipynb
       hidden: true
     - file: notebooks/downsampling.ipynb
