@@ -26,6 +26,8 @@ Interactive visualization of k-space undersampling in the Y direction
 
 Interactive [](#ZeroFillX) and [](#ZeroFillY) show zero-filling in the two spatial directions. This time, k-space values have been replaced by 0 in one half. Thus, the matrix size is the same as before (contrary to downsampling, which reduces its size by half) and the image appears quite the same, only smoother in the opposite direction.
 
+Even though the goal was only to do the downsampling, you can also see zero-filling because during lab 1, I did zero-filling instead of downsampling. This lab allowed me to understand the difference in the concepts but also their difference in the reconstructed image.
+
 :::{figure} #figZeroFillX
 :label: ZeroFillX
 Interactive visualization of zero-filling in the X direction
