@@ -1,36 +1,37 @@
 ---
 title: Lab 2 MyST Book
-description: An interactive book built with MyST
+description: MRI K-Space Manipulations
 ---
 
-:::{tip} Start here
-This is a template. Replace this page, and the chapters listed in the sidebar, with
-your own content.
+# MRI K-Space Manipulations
 
-Your first job is simply to get it **published**: use this template, enable GitHub
-Pages once, and let the Action build your site. Then start writing.
-:::
+## Introduction
 
-## About this book
+Magnetic Resonance Imaging (MRI) data are acquired in the spatial-frequency domain, commonly referred to as **k-space**. The acquired k-space data are transformed into an image using the inverse Fourier transform (IFT).
 
-**TODO:** replace this with a paragraph about what your book covers.
+The objective of this project is to explore how modifications of k-space affect the reconstructed MRI image. Three different situations are investigated: masking the central region of k-space, reducing the sampling density, and simulating patient motion during Cartesian acquisition.
 
-Built with [MyST Markdown](https://mystmd.org): Markdown for the prose, Jupyter
-notebooks for the computation, one `myst.yml` for the configuration, and a GitHub
-Action that rebuilds and republishes on every push.
+The experiments are implemented using interactive visualizations, allowing the effects of different parameters to be explored directly.
 
-## Why interactive?
+## Project objectives
 
-A static figure is one parameter choice out of infinitely many, frozen at publication.
-The author explored a whole parameter space; the reader gets one frame of it.
+This project investigates three fundamental aspects of MRI reconstruction:
 
-An interactive figure hands that space back. It costs almost nothing to add, and it
-often explains in three seconds what a paragraph of caption cannot.
+1. **Central k-space masking**  
+   Explore the effect of removing low-spatial-frequency information on image contrast and anatomical structures.
 
-## What's here
+2. **K-space downsampling**  
+   Investigate how reducing the sampling density affects the field of view, spatial resolution, and aliasing, as well as the effect of zero-filling.
 
-- [](./01-getting-started.md) — how to build, publish and debug this book
-- [](./02-interactive-figures.md) — the interactive figure pattern, with a worked example
+3. **Motion during acquisition**  
+   Simulate a sudden head rotation during Cartesian k-space acquisition and observe the resulting motion artifacts.
 
-Add your own pages by creating a `.md` file and listing it in the `toc` section of
-`myst.yml`.
+## Organization
+
+The project is divided into three parts:
+
+```{tableofcontents}
+
+## Interactive exploration
+
+Each section contains an interactive visualization that allows the effect of different parameters to be explored. These visualizations complement the static results by making it possible to observe how changes in k-space progressively affect the reconstructed image.
