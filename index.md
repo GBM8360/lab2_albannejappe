@@ -26,12 +26,13 @@ This project investigates three fundamental aspects of MRI reconstruction:
 3. **Motion during acquisition**  
    Simulate a sudden head rotation during Cartesian k-space acquisition and observe the resulting motion artifacts.
 
+
+## Interactive exploration
+
+Each section contains an interactive visualization that allows the effect of different parameters to be explored. These visualizations complement the static results by making it possible to observe how changes in k-space progressively affect the reconstructed image.
+
 ## Organization
 
 The project is divided into three parts:
 
 ```{tableofcontents}
-
-## Interactive exploration
-
-Each section contains an interactive visualization that allows the effect of different parameters to be explored. These visualizations complement the static results by making it possible to observe how changes in k-space progressively affect the reconstructed image.
